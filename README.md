@@ -45,6 +45,6 @@ See the website for more details:
   * There is an XCode project in the aacgain folder. It requires a pre-configured build environment to work, so the easiest thing to do would be to build the CMake version via the terminal then the XCode project will be able to build going forward
   * The configure process generates some files like `config.h` for `libplatform` in `libmp4v2`, so at the bare minimum you could just try building the XCode project and every time you get an error you run `./configure` for the project that has missing files
   * Once you've built the command line version at least once, the files you need will exist and you can just use the XCode project to build a universal binary instead
-  * There is a [repository](https://github.com/dgilman/aacgain) for aacgain
+  * There is a [repository](https://github.com/Sappharad/aacgain) for aacgain
 * **MP3GainExpress**
   * Just open and build the Xcode project.
