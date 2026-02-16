@@ -5,16 +5,6 @@ MP3Gain Express for macOS.
 
 ![Main window](Images/Window1.png)
 
-This is a modified version of the original [mp3gainOSX](https://github.com/Sappharad/mp3gainOSX) by *Sappharad*. These are the main changes made to the project:
-
-- Faster table view
-- Simplified progress window
-- Improved memory management
-- Modern filetype handling
-- User interface improvements.
-
-You can read this [changelog](CHANGELOG.md) which explains the changes in detail.
-
 ## Credits
 
 Based on:
