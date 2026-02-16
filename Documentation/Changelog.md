@@ -1,6 +1,6 @@
 # MP3Gain Express Changelog
 
-This document tracks improvements, changes, and fixes made to the MP3Gain Express for macOS application by *Sappharad* ([mp3gainOSX](https://github.com/Sappharad/mp3gainOSX)).
+This document tracks improvements, changes, and fixes made to MP3Gain Express for macOS ([mp3gainOSX](https://github.com/Sappharad/mp3gainOSX)) in February 2026.
 
 ## Performance Improvements
 
