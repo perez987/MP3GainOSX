@@ -29,8 +29,18 @@
         vev.frame = contentFrame;
         vev.blendingMode = NSVisualEffectBlendingModeBehindWindow;
         vev.state = NSVisualEffectStateActive;
-        vev.material = NSVisualEffectMaterialUnderWindowBackground;
-        self.styleMask = self.styleMask | NSWindowStyleMaskFullSizeContentView;
+        if (@available(macOS 10.14, *)) {
+            vev.material = NSVisualEffectMaterialUnderWindowBackground;
+        } else {
+            #pragma clang diagnostic push
+            #pragma clang diagnostic ignored "-Wdeprecated-declarations"
+            vev.material = NSVisualEffectMaterialUltraDark;
+            #pragma clang diagnostic pop
+        }
+        #pragma clang diagnostic push
+        #pragma clang diagnostic ignored "-Wdeprecated-declarations"
+        self.styleMask = self.styleMask | NSFullSizeContentViewWindowMask;
+        #pragma clang diagnostic pop
         self.contentView = vev;
         
         [vev addSubview:_originalView];

@@ -24,9 +24,25 @@
 		9EA9F17713C278550036B145 /* m3gInputItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9F17613C278550036B145 /* m3gInputItem.m */; };
 		9EB6852C1EB839E7003DD377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6852B1EB839E7003DD377 /* Assets.xcassets */; };
 		9EBDFE2E1EB53E4300C0F9F4 /* M3GWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBDFE2D1EB53E4300C0F9F4 /* M3GWindow.m */; };
-		D97AFB5D2F42831B00735EB5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D97AFB5B2F42831B00735EB5 /* Localizable.strings */; };
-		D9C9EED22F4480EA00AD1640 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = D9C9EED12F4480EA00AD1640 /* dsa_pub.pem */; };
+		D9F96FB32F44E64D00CA6066 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = D9F96FB22F44E64D00CA6066 /* dsa_pub.pem */; };
+		D9F96FB52F44E6EF00CA6066 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9F96FB42F44E6EF00CA6066 /* Localizable.strings */; };
+		D9F96FB72F44E5F700CA6066 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F96FB62F44E5F700CA6066 /* Sparkle.framework */; };
+		D9F96FB82F44E70900CA6066 /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D9F96FB62F44E5F700CA6066 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D9F96FB92F44E70900CA6066 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D9F96FB82F44E70900CA6066 /* Sparkle.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9E3A2AD513C231B400E49A59 /* MP3Gain Express.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MP3Gain Express.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,8 +72,9 @@
 		9EBDFE2D1EB53E4300C0F9F4 /* M3GWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3GWindow.m; sourceTree = "<group>"; };
 		D92A70FD2F42430900A5866C /* MP3GainExpress.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MP3GainExpress.entitlements; sourceTree = "<group>"; };
 		D94C907D2F437916002C5ED4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		D97AFB5C2F42831B00735EB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		D9C9EED12F4480EA00AD1640 /* dsa_pub.pem */ = {isa = PBXFileReference; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		D9F96FB22F44E64D00CA6066 /* dsa_pub.pem */ = {isa = PBXFileReference; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		D9F96FB42F44E6EF00CA6066 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		D9F96FB62F44E5F700CA6066 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +85,7 @@
 				9E431AF61D4AFC3700A69E9D /* AppKit.framework in Frameworks */,
 				9E431AF41D4AFC2800A69E9D /* CoreFoundation.framework in Frameworks */,
 				9E431AF71D4AFC4800A69E9D /* UniformTypeIdentifiers.framework in Frameworks */,
+				D9F96FB72F44E5F700CA6066 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +115,7 @@
 				9E431AF51D4AFC3700A69E9D /* AppKit.framework */,
 				9E431AF31D4AFC2800A69E9D /* CoreFoundation.framework */,
 				9E431AF81D4AFC4800A69E9D /* UniformTypeIdentifiers.framework */,
+				D9F96FB62F44E5F700CA6066 /* Sparkle.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -106,8 +125,8 @@
 			children = (
 				D92A70FC2F42415600A5866C /* aacgain-exe */,
 				9EB6852B1EB839E7003DD377 /* Assets.xcassets */,
-				D9C9EED12F4480EA00AD1640 /* dsa_pub.pem */,
-				D97AFB5B2F42831B00735EB5 /* Localizable.strings */,
+				D9F96FB22F44E64D00CA6066 /* dsa_pub.pem */,
+				D9F96FB42F44E6EF00CA6066 /* Localizable.strings */,
 				9E3A2AE513C231B400E49A59 /* main.m */,
 				9E3A2AEE13C231B400E49A59 /* MainMenu.xib */,
 				D92A70FD2F42430900A5866C /* MP3GainExpress.entitlements */,
@@ -191,6 +210,7 @@
 				9E3A2AD113C231B400E49A59 /* Sources */,
 				9E3A2AD213C231B400E49A59 /* Frameworks */,
 				9E3A2AD313C231B400E49A59 /* Resources */,
+				D9F96FB92F44E70900CA6066 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,8 +261,8 @@
 				9E46184C1EDBC36100C12330 /* aacgain in Resources */,
 				9E3A2AF013C231B400E49A59 /* MainMenu.xib in Resources */,
 				9E3A2AF713C237A000E49A59 /* AddSong.png in Resources */,
-				D9C9EED22F4480EA00AD1640 /* dsa_pub.pem in Resources */,
-				D97AFB5D2F42831B00735EB5 /* Localizable.strings in Resources */,
+				D9F96FB52F44E6EF00CA6066 /* Localizable.strings in Resources */,
+				D9F96FB32F44E64D00CA6066 /* dsa_pub.pem in Resources */,
 				9E3A2AFB13C23D5200E49A59 /* AddFolder.png in Resources */,
 				9E3A2AFC13C23D5200E49A59 /* ClearAll.png in Resources */,
 				9E3A2AFD13C23D5200E49A59 /* ClearSong.png in Resources */,
@@ -275,14 +295,6 @@
 				D94C907D2F437916002C5ED4 /* en */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		D97AFB5B2F42831B00735EB5 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D97AFB5C2F42831B00735EB5 /* en */,
-			);
-			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -396,6 +408,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 248;
 				DEVELOPMENT_TEAM = ER43ZD2S4U;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -411,7 +424,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sappharad.${PRODUCT_NAME:rfc1034identifier}";
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.sappharad.MP3GainExpress;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "com.sappharad.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "MP3Gain Express";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
@@ -427,6 +440,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 248;
 				DEVELOPMENT_TEAM = ER43ZD2S4U;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -442,7 +456,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sappharad.${PRODUCT_NAME:rfc1034identifier}";
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.sappharad.MP3GainExpress;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "com.sappharad.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "MP3Gain Express";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;

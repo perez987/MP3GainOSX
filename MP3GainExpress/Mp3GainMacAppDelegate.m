@@ -12,9 +12,14 @@
 
 @synthesize window = _window;
 @synthesize pbTotalProgress;
+@synthesize updater;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    // Initialize Sparkle updater
+    updater = [SUUpdater sharedUpdater];
+    [updater setDelegate:self];
+    
     _inputList = [[m3gInputList alloc] init];
     [tblFileList setDataSource:_inputList];
     [tblFileList setDelegate:_inputList];
@@ -345,6 +350,10 @@
 
 - (BOOL) applicationShouldTerminateAfterLastWindowClosed: (NSApplication *) theApplication{
     return TRUE;
+}
+
+- (IBAction)checkForUpdates:(id)sender {
+    [updater checkForUpdates:sender];
 }
 
 @end

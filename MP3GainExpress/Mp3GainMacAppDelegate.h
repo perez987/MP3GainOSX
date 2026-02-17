@@ -7,8 +7,9 @@
 #import "m3gInputList.h"
 #import <AppKit/AppKit.h>
 #import "Mp3GainTask.h"
+#import <Sparkle/Sparkle.h>
 
-@interface Mp3GainMacAppDelegate : NSObject <NSApplicationDelegate> {
+@interface Mp3GainMacAppDelegate : NSObject <NSApplicationDelegate, SUUpdaterDelegate> {
     m3gInputList *_inputList;
     NSMutableArray<Mp3GainTask*> *_tasks;
     NSWindow *_window;
@@ -38,6 +39,7 @@
 
 @property (strong) IBOutlet NSWindow *window;
 @property (strong) IBOutlet NSProgressIndicator *pbTotalProgress;
+@property (strong) SUUpdater *updater;
 - (IBAction)showPreferences:(id)sender;
 - (IBAction)btnAddFiles:(id)sender;
 - (IBAction)btnAddFolder:(id)sender;
@@ -48,4 +50,5 @@
 - (IBAction)btnCancel:(id)sender;
 - (IBAction)btnShowAdvanced:(id)sender;
 - (IBAction)doGainRemoval:(id)sender;
+- (IBAction)checkForUpdates:(id)sender;
 @end

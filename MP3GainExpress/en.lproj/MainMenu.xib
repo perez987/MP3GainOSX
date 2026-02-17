@@ -27,6 +27,14 @@
                             <menuItem isSeparatorItem="YES" id="236">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
+                            <menuItem title="Check for Updates..." id="640">
+                                <connections>
+                                    <action selector="checkForUpdates:" target="494" id="641"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="642">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
                             <menuItem title="Preferences…" keyEquivalent="," id="129">
                                 <connections>
                                     <action selector="showPreferences:" target="494" id="p6C-j4-1pg"/>
