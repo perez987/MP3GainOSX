@@ -25,6 +25,7 @@
 		9EB6852C1EB839E7003DD377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6852B1EB839E7003DD377 /* Assets.xcassets */; };
 		9EBDFE2E1EB53E4300C0F9F4 /* M3GWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBDFE2D1EB53E4300C0F9F4 /* M3GWindow.m */; };
 		D97AFB5D2F42831B00735EB5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D97AFB5B2F42831B00735EB5 /* Localizable.strings */; };
+		D9C9EED22F4480EA00AD1640 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = D9C9EED12F4480EA00AD1640 /* dsa_pub.pem */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		D92A70FD2F42430900A5866C /* MP3GainExpress.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MP3GainExpress.entitlements; sourceTree = "<group>"; };
 		D94C907D2F437916002C5ED4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D97AFB5C2F42831B00735EB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D9C9EED12F4480EA00AD1640 /* dsa_pub.pem */ = {isa = PBXFileReference; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				D92A70FC2F42415600A5866C /* aacgain-exe */,
 				9EB6852B1EB839E7003DD377 /* Assets.xcassets */,
+				D9C9EED12F4480EA00AD1640 /* dsa_pub.pem */,
 				D97AFB5B2F42831B00735EB5 /* Localizable.strings */,
 				9E3A2AE513C231B400E49A59 /* main.m */,
 				9E3A2AEE13C231B400E49A59 /* MainMenu.xib */,
@@ -238,6 +241,7 @@
 				9E46184C1EDBC36100C12330 /* aacgain in Resources */,
 				9E3A2AF013C231B400E49A59 /* MainMenu.xib in Resources */,
 				9E3A2AF713C237A000E49A59 /* AddSong.png in Resources */,
+				D9C9EED22F4480EA00AD1640 /* dsa_pub.pem in Resources */,
 				D97AFB5D2F42831B00735EB5 /* Localizable.strings in Resources */,
 				9E3A2AFB13C23D5200E49A59 /* AddFolder.png in Resources */,
 				9E3A2AFC13C23D5200E49A59 /* ClearAll.png in Resources */,
@@ -288,7 +292,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = x86_64;
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -342,7 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = x86_64;
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -406,8 +410,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sappharad.MP3GainExpress;
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = sappharad.MP3GainExpress;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sappharad.MP3Gain-Express";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.sappharad.MP3GainExpress;
 				PRODUCT_NAME = "MP3Gain Express";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
@@ -437,8 +441,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sappharad.MP3GainExpress;
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = sappharad.MP3GainExpress;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sappharad.MP3Gain-Express";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.sappharad.MP3GainExpress;
 				PRODUCT_NAME = "MP3Gain Express";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
