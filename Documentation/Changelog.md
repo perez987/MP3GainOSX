@@ -59,7 +59,7 @@ The progress window has been simplified to use a cleaner, more efficient layout:
   - `MP3GainExpress/Base.lproj/MainMenu.xib` - Lines 372-418
   - `MP3GainExpress/Mp3GainMacAppDelegate.m` - Lines 17-45
 
-![Processing window](Images/Window2.png)
+![Processing window](../Images/Window2.png)
 
 ## Memory Management & Stability
 
