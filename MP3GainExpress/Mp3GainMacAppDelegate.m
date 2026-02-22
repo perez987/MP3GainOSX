@@ -33,9 +33,7 @@
         [chkAvoidClipping setState:prefs.NoClipping?NSControlStateValueOn:NSControlStateValueOff];
     }
     if(!prefs.HideWarning){
-        NSMutableAttributedString *attrTitle = [[NSMutableAttributedString alloc] initWithString:NSLocalizedString(@"DontWarnAgain", @"Do not show this warning again")];
-        [attrTitle addAttribute:NSForegroundColorAttributeName value:[NSColor whiteColor] range:NSMakeRange(0, attrTitle.length)];
-        [chkDoNotWarnAgain setAttributedTitle:attrTitle];
+        [chkDoNotWarnAgain setTitle:NSLocalizedString(@"DontWarnAgain", @"Do not show this warning again")];
         [pnlWarning setIsVisible:YES];
     }
     //Set toolbar images at template, so when we're in dark mode they get inverted automatically:
