@@ -51,6 +51,9 @@
     NSImage* clearAll = [NSImage imageNamed:@"ClearAll.png"];
     [clearAll setTemplate:YES];
     [tbiClearAll setImage:clearAll];
+    if (@available(macOS 11.0, *)) {
+         [mnuCheckForUpdates setImage:[NSImage imageWithSystemSymbolName:@"arrow.triangle.2.circlepath" accessibilityDescription:@"Check for updates"]];
+     }
 }
 
 -(void)applicationWillTerminate:(NSNotification *)notification{

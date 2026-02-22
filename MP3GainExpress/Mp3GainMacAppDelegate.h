@@ -35,6 +35,7 @@
     IBOutlet NSToolbarItem *tbiAddFolder;
     IBOutlet NSToolbarItem *tbiClearFile;
     IBOutlet NSToolbarItem *tbiClearAll;
+    IBOutlet NSMenuItem *mnuCheckForUpdates;
 }
 
 @property (strong) IBOutlet NSWindow *window;
