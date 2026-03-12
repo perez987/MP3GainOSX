@@ -51,5 +51,4 @@ These are the main changes I've made to the project:
 - Modern filetype handling
 - User interface improvements
 - Sparkle updated to version 2.9.0
-- Language support (English, Spanish, German, French and Italian)
-- Language selector (menu language or `⌘ + L`)
+- Language support with language selector (menu language or `⌘ + L`)
