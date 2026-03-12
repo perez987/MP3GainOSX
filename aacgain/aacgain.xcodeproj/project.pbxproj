@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E68C2EC2550C2CE00DD6D26 /* libfaad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E68C2E02550C2B200DD6D26 /* libfaad.a */; };
+		9E68C2ED2550C2D100DD6D26 /* libmp4v2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E68C2E82550C2C000DD6D26 /* libmp4v2.a */; };
+		9E68C3482550C80800DD6D26 /* libmpglib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E68C3452550C7FE00DD6D26 /* libmpglib.a */; };
+		9ECE200A2550889B0026F54A /* aacgain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE20032550889B0026F54A /* aacgain.cpp */; };
+		9ECE200B2550889B0026F54A /* decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE20062550889B0026F54A /* decoder.c */; };
+		9ECE200C2550889B0026F54A /* syntax.c in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE20082550889B0026F54A /* syntax.c */; };
+		9ECE200D2550889B0026F54A /* MP4MetaFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE20092550889B0026F54A /* MP4MetaFile.cpp */; };
+		9ECE2053255088D00026F54A /* id3tag.c in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE2013255088D00026F54A /* id3tag.c */; };
+		9ECE2054255088D00026F54A /* rg_error.c in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE2014255088D00026F54A /* rg_error.c */; };
+		9ECE2055255088D00026F54A /* apetag.c in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE2016255088D00026F54A /* apetag.c */; };
+		9ECE2057255088D00026F54A /* mp3gain.c in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE2019255088D00026F54A /* mp3gain.c */; };
+		9ECE2058255088D00026F54A /* gain_analysis.c in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE201B255088D00026F54A /* gain_analysis.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E68C2DF2550C2B200DD6D26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E68C2DB2550C2B200DD6D26 /* faad2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9ECE2082255090E50026F54A;
+			remoteInfo = faad;
+		};
+		9E68C2E72550C2C000DD6D26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E68C2E32550C2C000DD6D26 /* mp4v2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9E68C1D12550BF7400DD6D26;
+			remoteInfo = mp4v2;
+		};
+		9E68C3442550C7FE00DD6D26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E68C33E2550C7FE00DD6D26 /* mpglib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9E68C2FC2550C71300DD6D26;
+			remoteInfo = mpglib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9ECE1D27255084940026F54A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9E68C2DB2550C2B200DD6D26 /* faad2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = faad2.xcodeproj; path = 3rdparty/faad2/faad2.xcodeproj; sourceTree = "<group>"; };
+		9E68C2E32550C2C000DD6D26 /* mp4v2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mp4v2.xcodeproj; path = 3rdparty/mp4v2/mp4v2.xcodeproj; sourceTree = "<group>"; };
+		9E68C33E2550C7FE00DD6D26 /* mpglib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mpglib.xcodeproj; path = mp3gain/mpglibDBL/mpglib.xcodeproj; sourceTree = "<group>"; };
+		9ECE1D29255084940026F54A /* aacgain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = aacgain; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECE20012550889B0026F54A /* aacgain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacgain.h; sourceTree = "<group>"; };
+		9ECE20022550889B0026F54A /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
+		9ECE20032550889B0026F54A /* aacgain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aacgain.cpp; sourceTree = "<group>"; };
+		9ECE20042550889B0026F54A /* MP4MetaFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP4MetaFile.h; sourceTree = "<group>"; };
+		9ECE20052550889B0026F54A /* aacgaini.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacgaini.h; sourceTree = "<group>"; };
+		9ECE20062550889B0026F54A /* decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = decoder.c; sourceTree = "<group>"; };
+		9ECE20072550889B0026F54A /* aacgainf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacgainf.h; sourceTree = "<group>"; };
+		9ECE20082550889B0026F54A /* syntax.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = syntax.c; sourceTree = "<group>"; };
+		9ECE20092550889B0026F54A /* MP4MetaFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MP4MetaFile.cpp; sourceTree = "<group>"; };
+		9ECE2011255088D00026F54A /* apetag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = apetag.h; path = mp3gain/apetag.h; sourceTree = "<group>"; };
+		9ECE2012255088D00026F54A /* id3tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = id3tag.h; path = mp3gain/id3tag.h; sourceTree = "<group>"; };
+		9ECE2013255088D00026F54A /* id3tag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = id3tag.c; path = mp3gain/id3tag.c; sourceTree = "<group>"; };
+		9ECE2014255088D00026F54A /* rg_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rg_error.c; path = mp3gain/rg_error.c; sourceTree = "<group>"; };
+		9ECE2015255088D00026F54A /* gain_analysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gain_analysis.h; path = mp3gain/gain_analysis.h; sourceTree = "<group>"; };
+		9ECE2016255088D00026F54A /* apetag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = apetag.c; path = mp3gain/apetag.c; sourceTree = "<group>"; };
+		9ECE2018255088D00026F54A /* mp3gain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mp3gain.h; path = mp3gain/mp3gain.h; sourceTree = "<group>"; };
+		9ECE2019255088D00026F54A /* mp3gain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mp3gain.c; path = mp3gain/mp3gain.c; sourceTree = "<group>"; };
+		9ECE201A255088D00026F54A /* rg_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rg_error.h; path = mp3gain/rg_error.h; sourceTree = "<group>"; };
+		9ECE201B255088D00026F54A /* gain_analysis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gain_analysis.c; path = mp3gain/gain_analysis.c; sourceTree = "<group>"; };
+		9ECE2052255088D00026F54A /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resource.h; path = mp3gain/resource.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ECE1D26255084940026F54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E68C2EC2550C2CE00DD6D26 /* libfaad.a in Frameworks */,
+				9E68C3482550C80800DD6D26 /* libmpglib.a in Frameworks */,
+				9E68C2ED2550C2D100DD6D26 /* libmp4v2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E68C2DC2550C2B200DD6D26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E68C2E02550C2B200DD6D26 /* libfaad.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E68C2E42550C2C000DD6D26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E68C2E82550C2C000DD6D26 /* libmp4v2.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E68C2EB2550C2CE00DD6D26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E68C33F2550C7FE00DD6D26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E68C3452550C7FE00DD6D26 /* libmpglib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ECE1D20255084940026F54A = {
+			isa = PBXGroup;
+			children = (
+				9E68C33E2550C7FE00DD6D26 /* mpglib.xcodeproj */,
+				9E68C2E32550C2C000DD6D26 /* mp4v2.xcodeproj */,
+				9E68C2DB2550C2B200DD6D26 /* faad2.xcodeproj */,
+				9ECE2010255088AD0026F54A /* mp3gain */,
+				9ECE1D2B255084940026F54A /* aacgain */,
+				9ECE1D2A255084940026F54A /* Products */,
+				9E68C2EB2550C2CE00DD6D26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9ECE1D2A255084940026F54A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ECE1D29255084940026F54A /* aacgain */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ECE1D2B255084940026F54A /* aacgain */ = {
+			isa = PBXGroup;
+			children = (
+				9ECE20032550889B0026F54A /* aacgain.cpp */,
+				9ECE20012550889B0026F54A /* aacgain.h */,
+				9ECE20072550889B0026F54A /* aacgainf.h */,
+				9ECE20052550889B0026F54A /* aacgaini.h */,
+				9ECE20062550889B0026F54A /* decoder.c */,
+				9ECE20092550889B0026F54A /* MP4MetaFile.cpp */,
+				9ECE20042550889B0026F54A /* MP4MetaFile.h */,
+				9ECE20022550889B0026F54A /* resource.h */,
+				9ECE20082550889B0026F54A /* syntax.c */,
+			);
+			path = aacgain;
+			sourceTree = "<group>";
+		};
+		9ECE2010255088AD0026F54A /* mp3gain */ = {
+			isa = PBXGroup;
+			children = (
+				9ECE2016255088D00026F54A /* apetag.c */,
+				9ECE2011255088D00026F54A /* apetag.h */,
+				9ECE201B255088D00026F54A /* gain_analysis.c */,
+				9ECE2015255088D00026F54A /* gain_analysis.h */,
+				9ECE2013255088D00026F54A /* id3tag.c */,
+				9ECE2012255088D00026F54A /* id3tag.h */,
+				9ECE2019255088D00026F54A /* mp3gain.c */,
+				9ECE2018255088D00026F54A /* mp3gain.h */,
+				9ECE2052255088D00026F54A /* resource.h */,
+				9ECE2014255088D00026F54A /* rg_error.c */,
+				9ECE201A255088D00026F54A /* rg_error.h */,
+			);
+			name = mp3gain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ECE1D28255084940026F54A /* aacgain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECE1D30255084940026F54A /* Build configuration list for PBXNativeTarget "aacgain" */;
+			buildPhases = (
+				9ECE1D25255084940026F54A /* Sources */,
+				9ECE1D26255084940026F54A /* Frameworks */,
+				9ECE1D27255084940026F54A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aacgain;
+			productName = aacgain;
+			productReference = 9ECE1D29255084940026F54A /* aacgain */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ECE1D21255084940026F54A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9ECE1D28255084940026F54A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 9ECE1D24255084940026F54A /* Build configuration list for PBXProject "aacgain" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ECE1D20255084940026F54A;
+			productRefGroup = 9ECE1D2A255084940026F54A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9E68C2DC2550C2B200DD6D26 /* Products */;
+					ProjectRef = 9E68C2DB2550C2B200DD6D26 /* faad2.xcodeproj */;
+				},
+				{
+					ProductGroup = 9E68C2E42550C2C000DD6D26 /* Products */;
+					ProjectRef = 9E68C2E32550C2C000DD6D26 /* mp4v2.xcodeproj */;
+				},
+				{
+					ProductGroup = 9E68C33F2550C7FE00DD6D26 /* Products */;
+					ProjectRef = 9E68C33E2550C7FE00DD6D26 /* mpglib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				9ECE1D28255084940026F54A /* aacgain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9E68C2E02550C2B200DD6D26 /* libfaad.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libfaad.a;
+			remoteRef = 9E68C2DF2550C2B200DD6D26 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9E68C2E82550C2C000DD6D26 /* libmp4v2.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmp4v2.a;
+			remoteRef = 9E68C2E72550C2C000DD6D26 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9E68C3452550C7FE00DD6D26 /* libmpglib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmpglib.a;
+			remoteRef = 9E68C3442550C7FE00DD6D26 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ECE1D25255084940026F54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECE2057255088D00026F54A /* mp3gain.c in Sources */,
+				9ECE2054255088D00026F54A /* rg_error.c in Sources */,
+				9ECE2058255088D00026F54A /* gain_analysis.c in Sources */,
+				9ECE2055255088D00026F54A /* apetag.c in Sources */,
+				9ECE200B2550889B0026F54A /* decoder.c in Sources */,
+				9ECE200A2550889B0026F54A /* aacgain.cpp in Sources */,
+				9ECE2053255088D00026F54A /* id3tag.c in Sources */,
+				9ECE200D2550889B0026F54A /* MP4MetaFile.cpp in Sources */,
+				9ECE200C2550889B0026F54A /* syntax.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9ECE1D2E255084940026F54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					AACGAIN,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9ECE1D2F255084940026F54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = AACGAIN;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9ECE1D31255084940026F54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					HAVE_INTTYPES_H,
+					AACGAIN,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/3rdparty/faad2/include/",
+					"$(PROJECT_DIR)/3rdparty/mp4v2/include/",
+					"$(PROJECT_DIR)/",
+					"$(PROJECT_DIR)/3rdparty/faad2/libfaad/",
+					"$(PROJECT_DIR)/3rdparty/mp4v2/",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3rdparty/faad2/libfaad/.libs",
+					"$(PROJECT_DIR)/mp3gain/mpglibDBL",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9ECE1D32255084940026F54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_INTTYPES_H,
+					AACGAIN,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/3rdparty/faad2/include/",
+					"$(PROJECT_DIR)/3rdparty/mp4v2/include/",
+					"$(PROJECT_DIR)/",
+					"$(PROJECT_DIR)/3rdparty/faad2/libfaad/",
+					"$(PROJECT_DIR)/3rdparty/mp4v2/",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3rdparty/faad2/libfaad/.libs",
+					"$(PROJECT_DIR)/mp3gain/mpglibDBL",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ECE1D24255084940026F54A /* Build configuration list for PBXProject "aacgain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECE1D2E255084940026F54A /* Debug */,
+				9ECE1D2F255084940026F54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECE1D30255084940026F54A /* Build configuration list for PBXNativeTarget "aacgain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECE1D31255084940026F54A /* Debug */,
+				9ECE1D32255084940026F54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ECE1D21255084940026F54A /* Project object */;
+}

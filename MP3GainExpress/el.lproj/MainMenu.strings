@@ -1,0 +1,65 @@
+/* Greek localization for MainMenu.xib */
+
+/* Menu Items */
+"56.title" = "MP3Gain";
+"58.title" = "Πληροφορίες για το MP3Gain Express";
+"640.title" = "Έλεγχος για Ενημερώσεις...";
+"129.title" = "Προτιμήσεις…";
+"131.title" = "Υπηρεσίες";
+"134.title" = "Απόκρυψη MP3Gain";
+"145.title" = "Απόκρυψη άλλων";
+"150.title" = "Εμφάνιση όλων";
+"136.title" = "Έξοδος από MP3Gain";
+"19.title" = "Παράθυρο";
+"23.title" = "Ελαχιστοποίηση";
+"239.title" = "Ζουμ";
+"5.title" = "Μεταφορά όλων στο προσκήνιο";
+"490.title" = "Βοήθεια";
+"492.title" = "Βοήθεια MP3Gain Express";
+
+/* Main Window */
+"371.title" = "MP3Gain Express";
+"547.title" = "\"Κανονική\" ένταση στόχος:";
+"551.title" = "dB (Προεπιλογή 89.0)";
+"623.title" = "Αποφυγή αποκοπής";
+"T3j-wI-fiL.title" = "Λειτουργία άλμπουμ";
+"566.title" = "Εφαρμογή ενίσχυσης";
+"570.title" = "Μόνο ανάλυση";
+
+/* Table Headers */
+"557.headerCell.title" = "Αρχείο";
+"558.headerCell.title" = "Ένταση";
+"561.headerCell.title" = "Αποκοπή";
+"563.headerCell.title" = "Ενίσχυση κομματιού";
+
+/* Toolbar Items */
+"542.label" = "Προσθήκη αρχείου(-ων)";
+"542.paletteLabel" = "Προσθήκη αρχείου(-ων)";
+"541.label" = "Προσθήκη φακέλου";
+"541.paletteLabel" = "Προσθήκη φακέλου";
+"543.label" = "Αφαίρεση αρχείου";
+"543.paletteLabel" = "Αφαίρεση αρχείου";
+"544.label" = "Αφαίρεση όλων";
+"544.paletteLabel" = "Αφαίρεση όλων";
+
+/* Processing Dialog */
+"581.title" = "Επεξεργασία";
+"g6k-a3-omT.title" = "Επεξεργασία σε εξέλιξη...";
+"590.title" = "Ακύρωση";
+
+/* Preferences Window */
+"Aev-Ki-F4W.title" = "Προτιμήσεις";
+"crR-ku-ywK.title" = "Αριθμός αρχείων για ταυτόχρονη επεξεργασία:";
+"irH-wR-qXa.title" = "Αποθήκευση ρυθμίσεων έντασης";
+
+/* Warning Panel */
+"G5f-zl-mMe.title" = "Προειδοποίηση";
+"n96-eJ-xcx.title" = "Να μην εμφανιστεί ξανά αυτή η προειδοποίηση";
+
+/* Subfolder Picker */
+"613.title" = "Συμπερίληψη υποφακέλων:";
+"609.title" = "Κανένας";
+
+/* Advanced Menu */
+"619.title" = "Αναίρεση ενίσχυσης";
+

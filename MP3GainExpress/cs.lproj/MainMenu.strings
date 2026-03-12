@@ -1,0 +1,65 @@
+/* Czech localization for MainMenu.xib */
+
+/* Menu Items */
+"56.title" = "MP3Gain";
+"58.title" = "O aplikaci MP3Gain Express";
+"640.title" = "Zkontrolovat aktualizace...";
+"129.title" = "Předvolby…";
+"131.title" = "Služby";
+"134.title" = "Skrýt MP3Gain";
+"145.title" = "Skrýt ostatní";
+"150.title" = "Zobrazit vše";
+"136.title" = "Ukončit MP3Gain";
+"19.title" = "Okno";
+"23.title" = "Minimalizovat";
+"239.title" = "Přiblížit";
+"5.title" = "Přenést vše do popředí";
+"490.title" = "Nápověda";
+"492.title" = "Nápověda MP3Gain Express";
+
+/* Main Window */
+"371.title" = "MP3Gain Express";
+"547.title" = "Cílová \"normální\" hlasitost:";
+"551.title" = "dB (Výchozí 89.0)";
+"623.title" = "Zabránit ořezávání";
+"T3j-wI-fiL.title" = "Režim alba";
+"566.title" = "Použít zesílení";
+"570.title" = "Pouze analyzovat";
+
+/* Table Headers */
+"557.headerCell.title" = "Soubor";
+"558.headerCell.title" = "Hlasitost";
+"561.headerCell.title" = "Ořezávání";
+"563.headerCell.title" = "Zesílení stopy";
+
+/* Toolbar Items */
+"542.label" = "Přidat soubor(y)";
+"542.paletteLabel" = "Přidat soubor(y)";
+"541.label" = "Přidat složku";
+"541.paletteLabel" = "Přidat složku";
+"543.label" = "Odebrat soubor";
+"543.paletteLabel" = "Odebrat soubor";
+"544.label" = "Odebrat vše";
+"544.paletteLabel" = "Odebrat vše";
+
+/* Processing Dialog */
+"581.title" = "Zpracování";
+"g6k-a3-omT.title" = "Pracuji...";
+"590.title" = "Zrušit";
+
+/* Preferences Window */
+"Aev-Ki-F4W.title" = "Předvolby";
+"crR-ku-ywK.title" = "Počet souborů ke zpracování současně:";
+"irH-wR-qXa.title" = "Zapamatovat nastavení hlasitosti";
+
+/* Warning Panel */
+"G5f-zl-mMe.title" = "Varování";
+"n96-eJ-xcx.title" = "Toto varování příště nezobrazovat";
+
+/* Subfolder Picker */
+"613.title" = "Zahrnout podsložky:";
+"609.title" = "Žádná";
+
+/* Advanced Menu */
+"619.title" = "Vrátit zesílení";
+

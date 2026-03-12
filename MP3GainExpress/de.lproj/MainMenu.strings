@@ -1,0 +1,64 @@
+/* German localization for MainMenu.xib */
+
+/* Menu Items */
+"56.title" = "MP3Gain";
+"58.title" = "Über MP3Gain Express";
+"640.title" = "Nach Updates suchen...";
+"129.title" = "Einstellungen…";
+"131.title" = "Dienste";
+"134.title" = "MP3Gain ausblenden";
+"145.title" = "Andere ausblenden";
+"150.title" = "Alle einblenden";
+"136.title" = "MP3Gain beenden";
+"19.title" = "Fenster";
+"23.title" = "Im Dock ablegen";
+"239.title" = "Zoomen";
+"5.title" = "Alle nach vorne bringen";
+"490.title" = "Hilfe";
+"492.title" = "MP3Gain Express Hilfe";
+
+/* Main Window */
+"371.title" = "MP3Gain Express";
+"547.title" = "Ziel-\"Normal\"-Lautstärke:";
+"551.title" = "dB (Standard 89.0)";
+"623.title" = "Clipping verhindern";
+"T3j-wI-fiL.title" = "Albummodus";
+"566.title" = "Verstärkung anwenden";
+"570.title" = "Nur analysieren";
+
+/* Table Headers */
+"557.headerCell.title" = "Datei";
+"558.headerCell.title" = "Lautstärke";
+"561.headerCell.title" = "Clipping";
+"563.headerCell.title" = "Titelverstärkung";
+
+/* Toolbar Items */
+"542.label" = "Datei(en) hinzufügen";
+"542.paletteLabel" = "Datei(en) hinzufügen";
+"541.label" = "Ordner hinzufügen";
+"541.paletteLabel" = "Ordner hinzufügen";
+"543.label" = "Datei entfernen";
+"543.paletteLabel" = "Datei entfernen";
+"544.label" = "Alle entfernen";
+"544.paletteLabel" = "Alle entfernen";
+
+/* Processing Dialog */
+"581.title" = "Verarbeitung";
+"g6k-a3-omT.title" = "Arbeite...";
+"590.title" = "Abbrechen";
+
+/* Preferences Window */
+"Aev-Ki-F4W.title" = "Einstellungen";
+"crR-ku-ywK.title" = "Anzahl gleichzeitig zu verarbeitender Dateien:";
+"irH-wR-qXa.title" = "Lautstärkeeinstellungen merken";
+
+/* Warning Panel */
+"G5f-zl-mMe.title" = "Warnung";
+"n96-eJ-xcx.title" = "Diese Warnung nicht mehr anzeigen";
+
+/* Subfolder Picker */
+"613.title" = "Unterordner einschließen:";
+"609.title" = "Keine";
+
+/* Advanced Menu */
+"619.title" = "Verstärkung rückgängig machen";

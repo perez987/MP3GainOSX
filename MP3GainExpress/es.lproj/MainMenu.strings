@@ -1,0 +1,64 @@
+/* Spanish localization for MainMenu.xib */
+
+/* Menu Items */
+"56.title" = "MP3Gain";
+"58.title" = "Acerca de MP3Gain Express";
+"640.title" = "Buscar Actualizaciones...";
+"129.title" = "Preferencias…";
+"131.title" = "Servicios";
+"134.title" = "Ocultar MP3Gain";
+"145.title" = "Ocultar otros";
+"150.title" = "Mostrar todo";
+"136.title" = "Salir de MP3Gain";
+"19.title" = "Ventana";
+"23.title" = "Minimizar";
+"239.title" = "Ampliar";
+"5.title" = "Traer todo al frente";
+"490.title" = "Ayuda";
+"492.title" = "Ayuda de MP3Gain Express";
+
+/* Main Window */
+"371.title" = "MP3Gain Express";
+"547.title" = "Volumen Objetivo \"Normal\":";
+"551.title" = "dB (Predefinido 89)";
+"623.title" = "Evitar recortes";
+"T3j-wI-fiL.title" = "Modo álbum";
+"566.title" = "Aplicar Ganancia";
+"570.title" = "Sólo analizar";
+
+/* Table Headers */
+"557.headerCell.title" = "Archivo";
+"558.headerCell.title" = "Volumen";
+"561.headerCell.title" = "Recorte";
+"563.headerCell.title" = "Ganancia de Pista";
+
+/* Toolbar Items */
+"542.label" = "Añadir archivo(s)";
+"542.paletteLabel" = "Añadir archivo(s)";
+"541.label" = "Añadir carpeta";
+"541.paletteLabel" = "Añadir carpeta";
+"543.label" = "Eliminar archivo";
+"543.paletteLabel" = "Eliminar archivo";
+"544.label" = "Eliminar todo";
+"544.paletteLabel" = "Eliminar todo";
+
+/* Processing Dialog */
+"581.title" = "Procesando";
+"g6k-a3-omT.title" = "Trabajando...";
+"590.title" = "Cancelar";
+
+/* Preferences Window */
+"Aev-Ki-F4W.title" = "Preferencias";
+"crR-ku-ywK.title" = "Número de archivos procesados simultáneamente:";
+"irH-wR-qXa.title" = "Recordar ajuste de volumen";
+
+/* Warning Panel */
+"G5f-zl-mMe.title" = "Advertencia";
+"n96-eJ-xcx.title" = "No mostrar esta advertencia de nuevo";
+
+/* Subfolder Picker */
+"613.title" = "Incluir subcarpetas:";
+"609.title" = "Ninguna";
+
+/* Advanced Menu */
+"619.title" = "Deshacer ganancia";
